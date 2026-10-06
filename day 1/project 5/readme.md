@@ -14,6 +14,7 @@ Incoming chat messages are automatically classified and either:
 * handled directly by an AI chatbot, or
 * escalated into a structured IT support ticket for human follow-up.
 
+<img width="683" height="269" alt="image" src="https://github.com/user-attachments/assets/7600dcfc-fb61-4c91-9db3-8e7355d3db25" />
 
 ---
 
