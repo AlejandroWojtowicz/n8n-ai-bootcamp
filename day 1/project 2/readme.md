@@ -15,6 +15,9 @@
 3. Basic LLM Chain
    3.1 Chat Model
 4. Create a file
+
+<img width="683" height="269" alt="image" src="https://github.com/user-attachments/assets/558ecf1f-5cc2-4da7-8935-e2979b857578" />
+
                    
 ---
 
