@@ -21,7 +21,7 @@ Incoming chat messages are automatically classified and either:
 
 **Add to the System Prompt**
 
-Add the following part to the system prompt of your Q&A Chatbot (for example after the Response guidelines)
+Add the following part to the system prompt of your Q&A Chatbot (for example after the Response guidelines and examples)
 
 ```
 ### **Escalation Rule:**
