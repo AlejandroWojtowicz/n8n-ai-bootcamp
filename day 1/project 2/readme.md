@@ -23,7 +23,7 @@
 
 #### Node 3: Basic LLM Chain
 
-**Type:** `LLM Chain (@n8n/n8n-nodes-langchain.chainLlm)`
+**Type:** `LLM Chain`
 
 **Purpose:** Classify the IT issue as *Urgent* or *Not urgent* based on predefined rules.
 
