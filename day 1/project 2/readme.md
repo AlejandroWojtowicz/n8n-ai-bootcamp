@@ -1,6 +1,6 @@
 # P2 – Build a simple AI-powered text classifier
 
-**Note:** Start by copying the workflow from P1 and then modify it as described below.
+**Note:** Continue using the workflow from project 1 and then modify it as described below.
 
 ## Workflow Overview
 
