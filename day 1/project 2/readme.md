@@ -102,7 +102,7 @@ Respond **only** with one of the following labels:
 | **Authentication** | oAuth2                                                                                                                                                                                                                                           |
 | **Resource**          | File                                                                                                                                                                                                                                          |
 | **Operation**     | Create                                                    |
-| **File Path**      | `day 1/tickets/{{ $('Set ID').item.json.ID }}.txt`                                                                                                                                                                                      |
+| **File Path**      | `day 1/tickets/{{ $('Set ID').item.json.ID }}.txt`  |
 | **Commit Message** | new ticket                                                                                                                                                                                                                                       |
 
 **File Content**
