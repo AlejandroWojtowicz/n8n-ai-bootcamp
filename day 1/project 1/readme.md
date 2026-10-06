@@ -25,7 +25,7 @@
 | -------------------- | ----------------------------------------------------------------------------------------|
 | **Form Title**       | IT Service Request                                                 					 |
 | **Form Description** | Submit your issue here                                             					 |
-| **Form Fields**      | **Add Form Element** <br>- Issue (textarea, required)<br>- Your Name (required) |
+| **Form Fields**      | **Add Form Element** <br>- Issue (textarea, required)<br>- Your Name (text input, required) |
 | **Add Option**       | **Form Response** IT support will be in touch shortly!                            		 |
 
 ---
