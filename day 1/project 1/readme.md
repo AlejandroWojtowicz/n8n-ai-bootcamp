@@ -54,11 +54,11 @@
 
 **Purpose:** Save a new ticket file to a GitHub repository.
 
-| Parameter          | Value                                                                                                                                                                                                           |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Authentication** | oAuth2                                                                                                                                                                                                          |
-| **Owner**          | your Github username                                                                                                                                                                  |
-| **Repository**     | your Github repo                                                                                                                                                                  |
-| **File Path**      | `day 1/tickets/{{ $json.ID }}.txt`                                                                                                                                                                          |
-| **File Content**   | Name: `{{ $json['Your Name'] }}`<br>Submitted: `{{ $json.submittedAt }}`<br>Issue: `{{ $json['Issue'] }}` |
-| **Commit Message** | new ticket                                                                                                                                                                                                      |
+| Parameter | Value |
+|---|---|
+| **Authentication** | `oAuth2` |
+| **Owner** | `your GitHub username` |
+| **Repository** | `your GitHub repo` |
+| **File Path** | `day 1/tickets/{{ $('Set ID').item.json.ID }}.txt` |
+| **File Content** | `Name: {{ $('Set ID').item.json['Your Name'] }}`<br><br>`Submitted: {{ $('Set ID').item.json.submittedAt }}`<br><br>`Issue: {{ $('Set ID').item.json['Issue description'] }}` |
+| **Commit Message** | `new ticket` |
