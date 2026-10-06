@@ -81,7 +81,7 @@ Summarize the user issue and return JSON with the user name and a short issue de
 - `output`
 - String
 ```
-{{ $('Q&A Chatbot').item.json.output }}
+IT support will be in touch soon!
 
 Your Ticket ID is {{ $('Set ID').item.json.ID }}
 ```
