@@ -60,5 +60,13 @@
 | **Owner** | `your GitHub username` |
 | **Repository** | `your GitHub repo` |
 | **File Path** | `day 1/tickets/{{ $('Set ID').item.json.ID }}.txt` |
-| **File Content** | ```Name: {{ $('Set ID').item.json['Your Name'] }}<br><br>Submitted: {{ $('Set ID').item.json.submittedAt }}<br><br>Issue: {{ $('Set ID').item.json['Issue description'] }}``` |
 | **Commit Message** | `new ticket` |
+
+**File Content**
+```
+Name: {{ $('Set ID').item.json['Your Name'] }}
+
+Submitted:{{ $('Set ID').item.json.submittedAt }}
+
+Issue: {{ $('Set ID').item.json['Issue description'] }}
+```
