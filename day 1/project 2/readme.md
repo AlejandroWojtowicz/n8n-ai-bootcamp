@@ -114,6 +114,6 @@ Name: {{ $('Set ID').item.json['Your Name'] }}
 
 Submitted:{{ $('Set ID').item.json.submittedAt }}
 
-Issue: {{ $('Set ID').item.json['Issue'] }}
+Issue: {{ $('Set ID').item.json['Issue description'] }}
 ```
 
