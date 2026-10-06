@@ -58,7 +58,7 @@ Summarize the user issue and return JSON with the user name and a short issue de
 **Structured Output Parser – Generate from Example**
 ```
 {
-  "Issue": "My laptop broke",
+  "Issue description": "My laptop broke",
   "Name": "Tobias"
 }
 ```
@@ -71,7 +71,7 @@ Summarize the user issue and return JSON with the user name and a short issue de
 |---|---|---|
 | `ID` | String | `{{ $now.toDateTime().ts.toString(36).toUpperCase() }}` |
 | `submittedAt` | String | `{{$now}}` |
-| `Issue description` | String | `{{ $json.output.Issue }}` |
+| `Issue description` | String | `{{ $json.output['Issue description'] }}` |
 | `Your Name` | String | `{{ $json.output['Name'] }}` |
 
 
