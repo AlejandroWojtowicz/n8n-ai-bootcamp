@@ -74,6 +74,7 @@ Summarize the user issue and return JSON with the user name and a short issue de
 | `Issue description` | String | `{{ $json.output['Issue description'] }}` |
 | `Your Name` | String | `{{ $json.output['Name'] }}` |
 
+- **Include other input fields:** `False`
 
 ### Edit Fields Node (New)
 
