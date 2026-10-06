@@ -11,6 +11,9 @@
 2. Edit Fields
 3. Create a file
 
+<img width="683" height="269" alt="image" src="https://github.com/user-attachments/assets/2e33edfc-a599-4eae-98be-e4be59e3b763" />
+
+
 ---
 
 ## Node 1: On form submission
