@@ -68,19 +68,22 @@ Summarize the user issue and return JSON with the user name and a short issue de
 ### Set ID Node (Update)
 
 - `ID`
-- String
+- Type: String
 - `{{ $now.toDateTime().ts.toString(36).toUpperCase() }}`
 
+
 - `submittedAt`
-- String
+- Type: String
 - `{{$now}}`
 
+
 - `Issue`
-- String
+- Type: String
 - `{{ $json.output.Issue }}`
 
+
 - `Your Name`
-- String
+- Type: String
 - `{{ $json.output['Name'] }}`
 
 
