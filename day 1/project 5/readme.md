@@ -1,6 +1,6 @@
 # P5 – Simple Support System
 
-**Important:** **Copy your workflow form P3** and **paste it into the workflow with the Q&A Chatbot (P4)**. 
+**Important:** **Copy your workflow form P3** and **paste it into the workflow with the Q&A Chatbot (P4).** 
 
 ---
 
