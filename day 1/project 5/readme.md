@@ -70,18 +70,15 @@ Summarize the user issue and return JSON with the user name and a short issue de
 - `ID`
 - Type: String
 - `{{ $now.toDateTime().ts.toString(36).toUpperCase() }}`
-
-
+ 
 - `submittedAt`
 - Type: String
 - `{{$now}}`
-
-
+ 
 - `Issue`
 - Type: String
 - `{{ $json.output.Issue }}`
-
-
+ 
 - `Your Name`
 - Type: String
 - `{{ $json.output['Name'] }}`
