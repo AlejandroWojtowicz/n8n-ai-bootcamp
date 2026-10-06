@@ -36,12 +36,12 @@ If the request includes **Keywords or topics** such as:
 - *user demands human assistance*
 DO NOT ANSWER the question. 
 
-Instead, respond with "The IT help desk will you support with that. I've created a ticket and they will be in touch shortly"
+Instead, respond with "CODE: ESCALATION"
 ```
 
 ### If Node
 
-`{{ $json.output }}` contains `I've created a ticket`
+`{{ $json.output }}` contains `CODE: ESCALATION`
 
 ### AI Agent
 
